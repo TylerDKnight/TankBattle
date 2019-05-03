@@ -1,9 +1,11 @@
 *************README.TXT*************
 HOW TO RUN:
-	-Unzip the Project1 folder and open it in Eclipse or an equivalent Java IDE
-	-Open the Game class stored in the src folder
-	-Expand the console panel so that it takes up a large portion of the screen
-	-Run the program and select the info menu option
+	-With a JRE installed, navigate to the containing directory
+	-Navigate to the "src" directory
+	-Compile the game with "javac Game.java"
+	-Execute the program with "java Game"
+	
+	-Select the info menu option
 	-Read the game rules and information then play the game 
 	-Play the game again
 	-Repeat the previous step forever
@@ -55,20 +57,6 @@ PROGRAMMING DESIGN:
 	
 	This game could just as easily have been designed with an OO structure, with
 	objects representing battlefields, players, enemies, shells, menus and more.
-	I did not design the game this way because I am not yet comfortable enough with 
-	Java and object oriented programming to write a large scale OO project. Also, I 
-	think for this game format, turning everything into objects would take more time 
-	than it would save.
-	
-REQUIREMENTS COVERED:
-	-Program well formatted: Proper and consistent indentation and whitespace
-	-Throughly documented: comments explaining every non-obvious piece of code, doc strings for every method
-	-Submission: in a ZIP file with README.TXT
-	-User input: always scanned for on the same line as prompt
-	-Outcomes: User informed of launch outcome with <1m and <3m messages
-	-Game status: User given score/health/ammo/etc info before and after their shot
-	-Score: MoralPoints are project equivalent of score
-	-Quit: User allowed to quit at the end of round  
 	
 EXTRA CREDIT FEATURES:
 	-Menu: central menu with new game, information and quit options
@@ -85,15 +73,4 @@ EXTRA CREDIT FEATURES:
 	-Difficulty: option to choose how skilled AI opponent is at shooting
 	-Complex damage: AI or player can accrue damage from nearby explosions, quantified by a homemade equation
 	-Usage of additional math: delved deeper into projectile motion, using angle of reach and velocity of reach formulas for AI
-	-Error handling: Any error causing or invalid inputs to prompts are dealt with without terminating game execution 	
-	
-FEATURE WISHLIST:
-	Stuff I would have likely implemented for kicks if I had the time and/or dedication:
-		-Dynamic difficulty: an enemy that adjusts how accurate its shots are based on your accuracy. 
-		 Like an AI player, but the AI is just mimicry of your own behavior. Could lead to more 
-		 suspenseful games because AI shoots better once you shoots closer to them.
-		-Moving Targets: the ability to spend your turn moving instead of shooting. Movement during the
-		 game would be limited by fuel, a static amount that is consumed throughout the course of the game.
-		-Multiple Enemies: face multiple enemies before the game is over, i.e. kill 3 German tanks in a game.
-		-MoralPoints Exchange: give the user the option to purchase armor or additional ammunition between rounds
-		 using MoralPoints accumulated during the game.
+	-Error handling: Any error causing or invalid inputs to prompts are dealt with without terminating game execution
